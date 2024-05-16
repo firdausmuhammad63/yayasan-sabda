@@ -39,6 +39,15 @@ body {
   z-index: 9999;
 }
 
+.logo {
+  max-width: 47.5px;
+}
+
+.navbar-logo {
+  align-items: center;
+  display: flex;
+}
+
 .navbar .navbar-logo {
   font-size: 2rem;
   font-weight: 700;
@@ -214,6 +223,12 @@ body {
   line-height: 1.6;
 }
 
+.contact a {
+  font-weight: bold;
+  color: #f0fd08;
+  font-size: 20px;
+}
+
 .program .row {
   display: flex;
   margin-top: 5rem;
@@ -268,7 +283,7 @@ body {
   font-style: italic;
 }
 
-/* ----------Footer---------- */
+/* -------------------Footer--------------------*/
 footer {
   background-color: var(--primary);
   text-align: center;
